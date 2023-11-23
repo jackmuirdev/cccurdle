@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-
-class CCCurdleGame
+﻿class CCCurdleGame
 {
+    private static WordLibrary wordLibrary = new WordLibrary(); // Make wordLibrary static
+
     static void Introduction()
     {
         Console.WriteLine("Welcome to CCCurdle");
@@ -10,22 +9,17 @@ class CCCurdleGame
         Console.WriteLine("Enter a 5-letter word");
     }
 
-    static string GenerateSecretWord()
-    {
-        string[] words = { "apple", "grape", "melon", "peach" };
-        Random random = new Random();
-        return words[random.Next(words.Length)];
-    }
+    // Remove GenerateSecretWord method
 
     static string GetPlayerGuess()
     {
         Console.Write("Enter your guess: ");
-        string guess = Console.ReadLine()?.ToLower(); // Changed to lowercase for consistency
+        string guess = Console.ReadLine()?.ToLower();
 
         if (guess == null || guess.Length != 5)
         {
             Console.WriteLine("Invalid word - needs to be 5 characters");
-            return null; // Return null to indicate an invalid guess
+            return null;
         }
 
         return guess;
@@ -71,14 +65,14 @@ class CCCurdleGame
         Console.WriteLine();
     }
 
-    static void Main()
+    public void RunGame()
     {
         bool playAgain = true;
 
         while (playAgain)
         {
             Introduction();
-            string secretWord = GenerateSecretWord();
+            string secretWord = wordLibrary.GetRandomFiveletter();
             int maxAttempts = 6;
             int attempts = 0;
 
@@ -113,5 +107,12 @@ class CCCurdleGame
 
         Console.WriteLine("Thanks for playing!");
         Console.ReadLine();
+    }
+
+    // Add the Main method back
+    static void Main()
+    {
+        CCCurdleGame game = new CCCurdleGame();
+        game.RunGame();
     }
 }
