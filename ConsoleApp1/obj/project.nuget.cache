@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "BywXaxQ2yMFyIuoPC1SeZuPKThTKk31GUF2P8QQfZJksety+vJC6qrOt27eV8x0rOFT8G9JdlK0vw+wa+Wua1w==",
+  "dgSpecHash": "7usMfjZJ/u2T4xU2rHNxhXJDWfmi7M3jUXM6RxNVK5OvLaCHu8Dk+X1Jp7BLPo0KPMbNNoKBirbu4Ku8qn3l0A==",
   "success": true,
-  "projectFilePath": "/Users/jackmuir/Desktop/University /Software /Year 1/Semester 1/CCCurdle/ConsoleApp1/ConsoleApp1.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Callum\\cccurdle\\cccurdle\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Callum\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\Callum\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\Callum\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\Callum\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
+  ],
   "logs": []
 }

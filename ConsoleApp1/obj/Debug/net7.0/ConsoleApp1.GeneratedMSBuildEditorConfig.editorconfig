@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ConsoleApp1
-build_property.ProjectDir = /Users/jackmuir/Desktop/University /Software /Year 1/Semester 1/CCCurdle/ConsoleApp1/
+build_property.ProjectDir = C:\Users\Callum\cccurdle\cccurdle\ConsoleApp1\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
